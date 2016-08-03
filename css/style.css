@@ -1,6 +1,19 @@
 header .header-content .header-content-inner p {
   color: #fff;
 }
+
+.section-heading {
+    color: #30C700;
+}
+
+.loc-p {
+    color: rgba(0,0,0,.7);
+    text-align: justify;
+}
+#booking {
+  background: #008601;
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: rgba(255, 255, 255, 1);
@@ -10,5 +23,8 @@ header .header-content .header-content-inner p {
   }
   .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     color: #000;
+  }
+  .location_map {
+    margin-top: 20px;
   }
 }
