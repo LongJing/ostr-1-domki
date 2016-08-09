@@ -1,11 +1,17 @@
 body {
   font-family: 'Roboto Slab', serif;
 }
+
 btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
+
+/* * * * *  NAVBAR  * * * * */
 .navbar {
   padding: 10px 0;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
 }
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     text-transform: lowercase;;
@@ -15,14 +21,33 @@ btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, 
 .navbar-default .nav > li > a:hover {
   color: gray;
 }
-header .header-content .header-content-inner p {
-  color: #fff;
+
+/* * * * *  header main content  * * * * */
+header .header-content p {
+  font-size: 27px;
+  line-height: 1.2;
+  margin-bottom: 0px;
+  text-align: left;
+  Xborder-top: 1px solid #fff;
+}
+
+.header-content h1 {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: left;
+}
+.header-content hr {
+  text-align: left;
+  border-color: #fff;
+  border-width: 1px;
+  max-width: 285px; /* TODO: change it later */
 }
 
 .section-heading {
     color: #30C700;
 }
 
+/* * * * *  page sections  * * * * */
 .loc-p {
     color: rgba(0,0,0,.7);
     text-align: justify;
@@ -39,7 +64,7 @@ header .header-content .header-content-inner p {
   color: #fff;
 }
 
-
+/* * * * *  Media Queries  * * * * */
 @media (min-width: 768px) {
   .navbar-default {
     background-color: rgba(255, 255, 255, 1);
@@ -52,5 +77,8 @@ header .header-content .header-content-inner p {
   }
   .location_map {
     margin-top: 20px;
+  }
+  header .header-content {
+    top: 70%;
   }
 }
