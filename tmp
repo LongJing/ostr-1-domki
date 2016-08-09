@@ -6,6 +6,19 @@ location:
 <div class="col-lg-8 col-lg-offset-2 ">
 
 booking / contact
+
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1 id="homeHeading">Krzywogoniec</h1>
+            <hr class="">
+            <p>Wynajem całorocznych domow</p>
+            <p>w Krajobrazowym Parku Narodowym</p>
+            <p>Borow Tucholskich</p>
+        </div>
+    </div>
+</header>
+
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -24,6 +37,7 @@ booking / contact
     </div>
 </div>
 </section>
+
 
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
