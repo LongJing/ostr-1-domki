@@ -52,6 +52,38 @@ header .header-content p {
     color: rgba(0,0,0,.7);
     text-align: justify;
 }
+
+/* * *  attraction section * * */
+.service-box {
+  max-width: 100%;
+}
+#attraction ol {
+  text-align: left;
+  margin-left: -35px;
+}
+
+body {
+  counter-reset: item;
+}
+#attraction ol {
+  list-style: none;
+}
+#attraction li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+#attraction li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: gray;
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+
+/* * * booking section * * */
 #booking {
   background: #008601;
 }
