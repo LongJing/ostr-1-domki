@@ -86,6 +86,13 @@ body {
 /* * * booking section * * */
 #booking {
   background: #008601;
+  color: #fff;
+}
+#booking h2.section-heading {
+  color: #fff;
+}
+#booking li strong {
+  padding-right: 26px;
 }
 
 .btn-booking-green {
