@@ -105,6 +105,13 @@ body {
 .btn-booking-green:hover, .btn-booking-green:active, .btn-booking-green:focus {
   color: #fff;
 }
+.freedays {
+  word-spacing: 3px;
+}
+.bookdays {
+  color: #0B9406;
+}
+
 
 /* * * * *  Media Queries  * * * * */
 @media (min-width: 768px) {
