@@ -21,6 +21,11 @@ $cal2 = '{
   "marzec":{"9":18}
 }';
 
+$cal3 = '{
+  "styczen":{2,3,4,5,10,11,12,18,19,20},
+
+}';
+
 echo "<pre>";
 // var_dump(json_decode($json));
 //var_dump(json_decode('{"styczen":{"2":3,"5":5,"10":20}}'));
@@ -41,7 +46,7 @@ foreach( $months as $month=>$days) {
   echo '</div>' . "\n";
 
   if( array_key_exists( $month, $jcalendar )) {
-    echo "jest: " . $month . "<br />\n"; // <----------- debug
+    // echo "jest: " . $month . "<br />\n"; // <----------- debug
     echo '<class="freedays">';
 
     for($i=1; $i<=$days; $i++) {
@@ -50,9 +55,17 @@ foreach( $months as $month=>$days) {
 
       //echo "db: " . $jcalendar->$month[$i];
       if( array_key_exists($i, $jcalendar[$month]  ) ) {
-          echo "<strong>r" . $i . "</strong>";
+          //echo "start: " . $i . " stop: " . $jcalendar[$month][$i];
+
+          echo ' <span class="bookdays">';
+          $j = $i;
+          for($j; $j <= $jcalendar[$month][$i]; $j++) {
+              echo "J:" . $j;
+          }
+          echo "</span> ";
+          continue ;
       } else {
-          echo $i . ' ';
+          echo ' ' . $i . ' ';
       }
     }
     /*
