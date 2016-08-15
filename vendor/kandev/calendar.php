@@ -40,7 +40,14 @@ $cal2 = '{
   "lipiec":{"1":31}
 }';
 
-$jcalendar = (json_decode($cal2, true));
+// $jcalendar = (json_decode($cal2, true));
+
+require_once("json-loader.php");
+$jcalendar = (json_decode($booked_json, true));
+
+if( $jcalendar == FALSE ) {
+  $jcalendar = array('empty'=>array('1'=>'0'));
+}
 
 $months = array(
       'styczen'=>31,'luty'=>28,'marzec'=>31,
@@ -50,8 +57,6 @@ $months = array(
 );
 
 $html  = '<div class="col-lg-2">' . "\n";
-// $html .=
-
 
 foreach( $months as $month=>$days) {
   echo "\n" . '<div class="col-lg-2">' . "\n";
