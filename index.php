@@ -318,42 +318,11 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-2">
-                <strong>Czerwiec</strong>
-              </div>
-              <div class="col-lg-10">
-                <span class="freedays">1 2 3 4 5 6 <span class="bookdays"> 7 8 9 10 </span> 11 12 13 14 15 16 17 <span class="bookdays"> 18 19 20 21 22 23 </span> 24 25 26 27 28 29 30</span>
-              </div>
-              <div class="col-lg-2">
-                  <strong>Lipiec</strong>
-                </div>
-                <div class="col-lg-10">
-                  <span class="freedays">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31</span>
-                </div>
-                <div class="col-lg-2">
-                  <strong>Sierpień</strong>
-                </div>
-                <div class="col-lg-10">
-                  <span class="freedays">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31</span>
-                </div>
-                <div class="col-lg-2">
-                  <strong>Wrzesień</strong>
-                </div>
-                <div class="col-lg-10">
-                  <span class="freedays">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</span>
-                </div>
-                <div class="col-lg-2">
-                  <strong>Październik</strong>
-                </div>
-                <div class="col-lg-10">
-                  <span class="freedays">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31</span>
-                </div>
-                <div class="col-lg-2">
-                  <strong>Listopad</strong>
-                </div>
-                <div class="col-lg-10">
-                  <span class="freedays">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</span>
-                </div>
+
+            <?php
+              require_once("vendor/kandev/calendar.php");
+             ?>
+
             </div><!-- row -->
             <div class="row">
               <div class="col-lg-8">

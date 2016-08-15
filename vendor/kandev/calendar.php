@@ -60,7 +60,7 @@ $html  = '<div class="col-lg-2">' . "\n";
 
 foreach( $months as $month=>$days) {
   echo "\n" . '<div class="col-lg-2">' . "\n";
-  echo "\t\t<strong>" . $month . "</strong>\n" ;
+  echo "\t\t$month\n" ;
   echo '</div>' . "\n";
 
   echo '<div class="col-lg-10">' . "\n";
