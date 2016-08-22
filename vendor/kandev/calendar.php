@@ -49,16 +49,31 @@ if( $jcalendar == FALSE ) {
   $jcalendar = array('empty'=>array('1'=>'0'));
 }
 
+$dic_months = array(
+  1=>'styczeń', 2=>'luty',3=>'marzec',4=>'kwieceń',5=>'maj',6=>'lipiec',7=>'lipiec',8=>'sierpień',9=>'wrzesień',10=>'październik',11=>'listopad',12=>'grudzień'
+);
+
 $months = array(
-      'styczen'=>31,'luty'=>28,'marzec'=>31,
+      'styczeń'=>31,'luty'=>28,'marzec'=>31,
       'kwiecień'=>30,'maj'=>31, 'czerwiec'=>30,
-      'lipiec'=>31,'sierpien'=>31,'wrzesien'=>30,
+      'lipiec'=>31,'sierpień'=>31,'wrzesień'=>30,
       'październik'=>31,'listopad'=>30,'grudzień'=>31
 );
+date_default_timezone_set('Europe/Warsaw');
+$current_month =  date("n");
+// echo $dic_months[$current_month];
 
 $html  = '<div class="col-lg-2">' . "\n";
 
 foreach( $months as $month=>$days) {
+
+  $key_month = array_search($month, $dic_months);
+
+  if( $key_month < $current_month ) {
+    // echo $key_month;
+    continue ;
+  }
+
   echo "\n" . '<div class="col-lg-2">' . "\n";
   echo "\t\t$month\n" ;
   echo '</div>' . "\n";
