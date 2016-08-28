@@ -85,9 +85,9 @@
             <div class="col-lg-4 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12">
                 <h1 id="homeHeading">Krzywogoniec</h1>
                 <hrX class="">
-                <p>Wynajem całorocznych domow</p>
+                <p>Wynajem całorocznych domków wypoczynkowych</p>
                 <p>w Krajobrazowym Parku Narodowym</p>
-                <p>Borow Tucholskich</p>
+                <p>Borów Tucholskich</p>
                 <hrX class="">
             </div>
           </div><!-- row -->
@@ -265,7 +265,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="section-heading">Okoliczne atarkcje</h2>
+                    <h2 class="section-heading">Okoliczne atrakcje</h2>
                     <hr class="light">
                 </div>
             </div>
