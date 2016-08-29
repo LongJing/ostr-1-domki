@@ -54,6 +54,10 @@ header .header-content p {
 .loc-p {
     color: rgba(0,0,0,.7);
     text-align: justify;
+    font-size: 15px;
+}
+.mapsection {
+  margin-top: 20px;
 }
 
 /* * *  attraction section * * */

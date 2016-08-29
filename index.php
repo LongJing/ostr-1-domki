@@ -111,7 +111,7 @@
                   </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mapsection">
               <div class="col-lg-12 col-md-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180013.2743225894!2d17.92755903459505!3d53.6434847670556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4702f77ae723bdbb%3A0x57e885ae5e59e7ed!2sKrzywogoniec!5e0!3m2!1spl!2spl!4v1470169838401"
                         width="1140" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -123,6 +123,36 @@
     <section class="no-padding" id="gallery">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
+              <div class="col-lg-4 col-sm-6">
+                <a href="img/gallery/full/widok_z_laki.jpg" class="portfolio-box" title="Domki na jeziorem">
+                    <img src="img/gallery/sml/widok_z_laki.jpg" class="img-responsive" alt="Domki na jeziorem">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  kliknij, aby zobaczy całe zdjęcie
+                              </div>
+                              <div class="project-name">
+                                  Domki (widok z łąki)
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a href="img/gallery/full/widok_z_drogi.jpg" class="portfolio-box" title="Domki do wynajęcia">
+                    <img src="img/gallery/sml/widok_z_drogi.jpg" class="img-responsive" alt="Domki do wynajęcia">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  kliknij, aby zobaczy całe zdjęcie
+                              </div>
+                              <div class="project-name">
+                                  Domki (widok z drogi)
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/gallery/full/kuchnia.jpg" class="portfolio-box" title="Domek wypoczynkowy Kuchnia">
                         <img src="img/gallery/sml/kuchnia.jpg" class="img-responsive" alt="Domek wypoczynkowy Kuchnia">
@@ -132,67 +162,37 @@
                                     kliknij, aby zobaczy całe zdjęcie
                                 </div>
                                 <div class="project-name">
-                                    Kuchnia
+                                    Aneks kuchenny
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/widok_z_drogi.jpg" class="portfolio-box" title="Domki do wynajęcia">
-                      <img src="img/gallery/sml/widok_z_drogi.jpg" class="img-responsive" alt="Domki do wynajęcia">
+                  <a href="img/gallery/full/salon.jpg" class="portfolio-box" title="Salon z kominkiem">
+                      <img src="img/gallery/sml/salon.jpg" class="img-responsive" alt="Salon z kominkiem">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     kliknij, aby zobaczy całe zdjęcie
                                 </div>
                                 <div class="project-name">
-                                    Widok z drogi
+                                    Salon (widok z aneksu kuchennego)
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/gallery/full/poddasze_maly_pokoj.jpg" class="portfolio-box" title="Mały pokoj na poddaszu">
-                        <img src="img/gallery/sml/poddasze_maly_pokoj.jpg" class="img-responsive" alt="Mały pokoj na poddaszu">
+                  <a href="img/gallery/full/salon_02.jpg" class="portfolio-box" title="Salon duże kanapy">
+                      <img src="img/gallery/sml/salon_02.jpg" class="img-responsive" alt="Salon duże kanapy">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     kliknij, aby zobaczy całe zdjęcie
                                 </div>
                                 <div class="project-name">
-                                    Mały pokoj na poddaszu
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/poddasze_sredni_pokoj.jpg" class="portfolio-box" title="Średni pokoj na poddaszu">
-                      <img src="img/gallery/sml/poddasze_sredni_pokoj.jpg" class="img-responsive" alt="Średni pokoj na poddaszu">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    kliknij, aby zobaczy całe zdjęcie
-                                </div>
-                                <div class="project-name">
-                                    Średni pokoj na poddaszu
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/widok_z_laki.jpg" class="portfolio-box" title="Domki na jeziorem">
-                      <img src="img/gallery/sml/widok_z_laki.jpg" class="img-responsive" alt="Domki na jeziorem">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    kliknij, aby zobaczy całe zdjęcie
-                                </div>
-                                <div class="project-name">
-                                    Widok z łąki
+                                    Salon (widok z tarasu)
                                 </div>
                             </div>
                         </div>
@@ -214,45 +214,45 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/salon.jpg" class="portfolio-box" title="Salon z kominkiem">
-                      <img src="img/gallery/sml/salon.jpg" class="img-responsive" alt="Salon z kominkiem">
+                    <a href="img/gallery/full/poddasze_maly_pokoj.jpg" class="portfolio-box" title="Mały pokój na poddaszu">
+                        <img src="img/gallery/sml/poddasze_maly_pokoj.jpg" class="img-responsive" alt="Mały pokój na poddaszu">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     kliknij, aby zobaczy całe zdjęcie
                                 </div>
                                 <div class="project-name">
-                                    Salon
+                                    Mały pokój na poddaszu
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/salon_02.jpg" class="portfolio-box" title="Salon duze kanapy">
-                      <img src="img/gallery/sml/salon_02.jpg" class="img-responsive" alt="Salon duze kanapy">
+                  <a href="img/gallery/full/poddasze_sredni_pokoj.jpg" class="portfolio-box" title="Średni pokój na poddaszu">
+                      <img src="img/gallery/sml/poddasze_sredni_pokoj.jpg" class="img-responsive" alt="Średni pokój na poddaszu">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     kliknij, aby zobaczy całe zdjęcie
                                 </div>
                                 <div class="project-name">
-                                    Salon
+                                    Średni pokój na poddaszu
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/poddasze_duzy_pokoj.jpg" class="portfolio-box" title="Duzy pokoj na poddaszu">
-                      <img src="img/gallery/sml/poddasze_duzy_pokoj.jpg" class="img-responsive" alt="Duzy pokoj na poddaszu">
+                  <a href="img/gallery/full/poddasze_duzy_pokoj.jpg" class="portfolio-box" title="Duży pokój na poddaszu">
+                      <img src="img/gallery/sml/poddasze_duzy_pokoj.jpg" class="img-responsive" alt="Duży pokój na poddaszu">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     kliknij, aby zobaczy całe zdjęcie
                                 </div>
                                 <div class="project-name">
-                                    Duzy pokoj na poddaszu
+                                    Duży pokój na poddaszu z balkonem
                                 </div>
                             </div>
                         </div>
@@ -276,22 +276,22 @@
                     <div class="service-box">
                         <ol>
                           <li>
-                            <p><strong>Cekcyn</strong> - wyp. sprzętu wodnego, minigolf, amfiteatr, gastronomia</p>
+                            <p><strong><a href="http://www.cekcyn.pl/" traget="_blank">Cekcyn</a></strong> - wyp. sprzętu wodnego, minigolf, amfiteatr, gastronomia</p>
                           </li>
                           <li>
-                            <p><strong>Fojutowo</strong> - akwedukt, basen pływacki, gastronomia</p>
+                            <p><strong><a href="http://www.zajazd-fojutowo.pl/" traget="_blank">Fojutowo</a></strong> - akwedukt, basen pływacki, gastronomia</p>
                           </li>
                           <li>
-                            <p><strong>Gołąbek</strong> - leśna ściezka dydaktyczna "Jelenia Wyspa"</p>
+                            <p><strong><a href="https://pl.wikipedia.org/wiki/Jelenia_Wyspa" traget="_blank">Gołąbek</a></strong> - leśna ściezka dydaktyczna "Jelenia Wyspa"</p>
                           </li>
                           <li>
-                            <p><strong>Ostrowo</strong> - stadnina koni "QŃ"</p>
+                            <p><strong><a href="http://www.kon.pl/" traget="_blank">Ostrowo</a></strong> - stadnina koni "QŃ"</p>
                           </li>
                           <li>
-                            <p><strong>Wierzchlas</strong> - Rezerwat Cisow Staropolskich</p>
+                            <p><strong><a href="https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Cisy_Staropolskie_im._Leona_Wycz%C3%B3%C5%82kowskiego" traget="_blank">Wierzchlas</a></strong> - Rezerwat Cisow Staropolskich</p>
                           </li>
                           <li>
-                            <p><strong>Woziwoda</strong> - spływy kajakowe po Brdzie, gastronomia</p>
+                            <p><strong><a href="http://www.woziwoda.torun.lasy.gov.pl/obiekty-edukacyjne" traget="_blank">Woziwoda</a></strong> - spływy kajakowe po Brdzie, gastronomia</p>
                           </li>
                         </ol>
                     </div><!-- service-box -->
