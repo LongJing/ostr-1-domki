@@ -82,7 +82,7 @@
     <header>
         <div class="header-content">
           <div class="row">
-            <div class="col-lg-4 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12">
+            <div class="col-lg-6 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-12">
                 <h1 id="homeHeading">Krzywogoniec</h1>
                 <hrX class="">
                 <p>Wynajem całorocznych domków wypoczynkowych</p>
@@ -275,22 +275,22 @@
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
                         <ol>
-                          <li>
+                          <li class="attr-li1">
                             <p><strong><a href="http://www.cekcyn.pl/" traget="_blank">Cekcyn</a></strong> - wyp. sprzętu wodnego, minigolf, amfiteatr, gastronomia</p>
                           </li>
-                          <li>
+                          <li  class="attr-li2">
                             <p><strong><a href="http://www.zajazd-fojutowo.pl/" traget="_blank">Fojutowo</a></strong> - akwedukt, basen pływacki, gastronomia</p>
                           </li>
-                          <li>
+                          <li  class="attr-li3">
                             <p><strong><a href="https://pl.wikipedia.org/wiki/Jelenia_Wyspa" traget="_blank">Gołąbek</a></strong> - leśna ściezka dydaktyczna "Jelenia Wyspa"</p>
                           </li>
-                          <li>
+                          <li  class="attr-li4">
                             <p><strong><a href="http://www.kon.pl/" traget="_blank">Ostrowo</a></strong> - stadnina koni "QŃ"</p>
                           </li>
-                          <li>
+                          <li  class="attr-li5">
                             <p><strong><a href="https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Cisy_Staropolskie_im._Leona_Wycz%C3%B3%C5%82kowskiego" traget="_blank">Wierzchlas</a></strong> - Rezerwat Cisow Staropolskich</p>
                           </li>
-                          <li>
+                          <li  class="attr-li6">
                             <p><strong><a href="http://www.woziwoda.torun.lasy.gov.pl/obiekty-edukacyjne" traget="_blank">Woziwoda</a></strong> - spływy kajakowe po Brdzie, gastronomia</p>
                           </li>
                         </ol>

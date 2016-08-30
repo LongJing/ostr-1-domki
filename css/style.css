@@ -65,10 +65,42 @@ header .header-content p {
   max-width: 100%;
 }
 #attraction ol {
+  /*
   text-align: left;
   margin-left: -35px;
+  */
+ text-align: left;
+  list-style-type: none;
+ padding: 0;
+ margin: 0;
 }
 
+#attraction ol li {
+    background-image: url(../img/li.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+ #attraction ol li.attr-li1 {
+   background-image: url(../img/li1.png);
+ }
+ #attraction ol li.attr-li2 {
+   background-image: url(../img/li2.png);
+ }
+ #attraction ol li.attr-li3 {
+   background-image: url(../img/li3.png);
+ }
+ #attraction ol li.attr-li4 {
+   background-image: url(../img/li4.png);
+ }
+ #attraction ol li.attr-li5 {
+   background-image: url(../img/li5.png);
+ }
+ #attraction ol li.attr-li6 {
+   background-image: url(../img/li6.png);
+ }
+/* auto-generate li style
 body {
   counter-reset: item;
 }
@@ -89,7 +121,7 @@ body {
   text-align: center;
   display: inline-block;
 }
-
+*/
 /* * * booking section * * */
 #booking {
   background: #008601;
