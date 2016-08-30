@@ -147,6 +147,10 @@ body {
 .bookdays {
   color: #0B9406;
 }
+/* * * footer * * */
+footer {
+  margin-top: 15px;
+}
 .kydfoot {
   font-size: 9px;
   color: gray;
