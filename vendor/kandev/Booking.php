@@ -1,54 +1,5 @@
 <?php
 
-/**
- * @desc prepare file with booked days
- */
-class JsonLoader
-{
-    /**
-     * @desc path to dir with json files with booked days (reserations)
-     */
-    const PATH_DIR_JSON = '../../reservations';
-    private $_filename;
-    private $_path_file;
-    private $_loaded_file;
-
-    public function __construct( $filename )
-    {
-
-      // filter_input ?
-      $this->_filename = $filename;
-      $this->_path_file = self::PATH_DIR_JSON . "/" . $this->_filename;
-
-      //echo $this->_path_file;
-      // $this->validFile();
-      $this->_loaded_file = file_get_contents( $this->_path_file );
-
-      // print_r( $this->_loaded_file );
-
-    }
-    private function validFile()
-    {
-      // if file exists
-      // if file is readble
-    }
-    public function getLoadedData()
-    {
-      return $this->_loaded_file;
-    }
-}
-// test class
-$loader1 = new JsonLoader('domek1.json');
-// echo $loader1->getLoadedFile();
-$loader2 = new JsonLoader('domek2.json');
-
-$domek1 = new Booking( $loader1 );
-$domek2 = new Booking( $loader2 );
-$domek1->generateHTML();
-$domek2->generateHTML();
-
-/* ---------------- */
-
 class Booking
 {
   public $res_json_file; // reservations file json
@@ -133,9 +84,14 @@ class Booking
   public function generateHTML()
   {
     foreach( $this->_new_order_months as $mkey=>$mval) {
+      echo "<div class='col-lg-2'>" . "\n";
       echo "\t\t$mval\n" ;
-
+      echo "</div>\n";
       if( array_key_exists( $mval, $this->_jcalendar )) {
+
+        echo '<div class="col-lg-10">' . "\n";
+        echo '<span class="freedays">' . "\n";
+
         for($i=1; $i<=$this->_months_days[$mval]; $i++) {
           if( array_key_exists($i, $this->_jcalendar[$mval]  ) ) {
             echo ' <span class="bookdays"><strong>';
@@ -152,14 +108,16 @@ class Booking
             echo ' ' . $i . ' ';
           }
         }
-        echo "<br />";
+        echo "</span>\n";
+        echo "\n</div>\n";
       } else {
-
+        echo '<div class="col-lg-10">' . "\n";
         echo "\t\t" . '<span class="freedays">';
         for($i=1; $i<=$this->_months_days[$mval]; $i++) {
           echo $i . ' ';
         }
-        echo '</span><br />';
+        echo "</span>\n";
+        echo "\n</div>\n";
       }
 
     }
@@ -168,8 +126,12 @@ class Booking
 //  $current_month =  date("n");
 
 }
-
-
+/* test
+$domek1 = new Booking( $loader1 );
+$domek2 = new Booking( $loader2 );
+$domek1->generateHTML();
+$domek2->generateHTML();
+*/
 
 
 

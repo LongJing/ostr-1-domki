@@ -1,3 +1,7 @@
+<?php
+  $secret = true;
+  require_once("classloader.php");
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -315,21 +319,34 @@
             <div class="row">
               <div class="col-lg-8">
                 <h3>Domek nr 1</h3>
-              </div>
-            </div>
+              </div><!-- lg-8 -->
+            </div><!-- row -->
             <div class="row">
 
             <?php
               // require_once("vendor/kandev/calendar.php");
-              require_once("vendor/kandev/testneor.php");
+              // require_once("vendor/kandev/testneor.php");
+
+              $loader = new JsonLoader('domek1.json');
+              $domek1 = new Booking( $loader );
+              $domek1->generateHTML();
+
              ?>
 
             </div><!-- row -->
             <div class="row">
               <div class="col-lg-8">
                 <h3>Domek nr 2</h3>
-                <p>Domtek tymczasowo niedostępny</p>
               </div><!-- lg-8 -->
+            </div><!-- row -->
+            <div class="row">
+              <?php
+
+                //$loader = new JsonLoader('domek2.json');
+                $domek2 = new Booking( $loader );
+                $domek2->generateHTML();
+
+               ?>
             </div><!-- row -->
         </div><!-- container -->
     </section>
