@@ -345,7 +345,7 @@
             <div class="row">
               <?php
 
-                //$loader = new JsonLoader('domek2.json');
+                $loader = new JsonLoader('domek2.json');
                 $domek2 = new Booking( $loader );
                 $domek2->generateHTML();
 
