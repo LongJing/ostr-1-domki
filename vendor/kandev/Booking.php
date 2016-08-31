@@ -40,9 +40,12 @@ class JsonLoader
 // test class
 $loader1 = new JsonLoader('domek1.json');
 // echo $loader1->getLoadedFile();
-$ob2 = new JsonLoader('domek2.json');
+$loader2 = new JsonLoader('domek2.json');
 
 $domek1 = new Booking( $loader1 );
+$domek2 = new Booking( $loader2 );
+$domek1->generateHTML();
+$domek2->generateHTML();
 
 /* ---------------- */
 
@@ -87,12 +90,14 @@ class Booking
 
     // convert decode data from json file
     $this->_jcalendar = (json_decode($this->res_json_file->getLoadedData(), true));
-    print_r( $this->_jcalendar ); // finish here, evrthg workin ok
+    // print_r( $this->_jcalendar );
   }
+
   private function setDefaultTimezone( $timezone = 'Europe/Warsaw' )
   {
       date_default_timezone_set( $timezone );
   }
+
   private function setCurrentMonth( $month = null )
   {
       if( null === $month ) {
@@ -119,6 +124,45 @@ class Booking
     }
     // print_r( $this->_new_order_months);  // ok
 
+  }
+  /**
+   * Finish here, evrthg workin ok
+   * Change echo to var $html and return val of this var TODO
+   * @return [type] [description]
+   */
+  public function generateHTML()
+  {
+    foreach( $this->_new_order_months as $mkey=>$mval) {
+      echo "\t\t$mval\n" ;
+
+      if( array_key_exists( $mval, $this->_jcalendar )) {
+        for($i=1; $i<=$this->_months_days[$mval]; $i++) {
+          if( array_key_exists($i, $this->_jcalendar[$mval]  ) ) {
+            echo ' <span class="bookdays"><strong>';
+            $j = $i;
+            for($j; $j <= $this->_jcalendar[$mval][$i]; $j++) {
+                echo ' ' . $j . ' ';
+                //$i++;
+            }
+            echo "</strong></span>";
+            // echo $j;
+            $i = $this->_jcalendar[$mval][$i]  ;
+
+          } else {
+            echo ' ' . $i . ' ';
+          }
+        }
+        echo "<br />";
+      } else {
+
+        echo "\t\t" . '<span class="freedays">';
+        for($i=1; $i<=$this->_months_days[$mval]; $i++) {
+          echo $i . ' ';
+        }
+        echo '</span><br />';
+      }
+
+    }
   }
 
 //  $current_month =  date("n");
