@@ -289,12 +289,15 @@
                             <p><strong><a href="https://pl.wikipedia.org/wiki/Jelenia_Wyspa" traget="_blank">Gołąbek</a></strong> - leśna ściezka dydaktyczna "Jelenia Wyspa"</p>
                           </li>
                           <li  class="attr-li4">
-                            <p><strong><a href="http://www.kon.pl/" traget="_blank">Ostrowo</a></strong> - stadnina koni "QŃ"</p>
+                            <p><strong><a href="http://turnusy-dla-dzieci.blogspot.com/2012/08/osrodek-rehabilitacji-i-hipoterapii.html" target="_blank">Małe Gacno - ośrodek hipoterapii</a></strong></p>
                           </li>
                           <li  class="attr-li5">
-                            <p><strong><a href="https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Cisy_Staropolskie_im._Leona_Wycz%C3%B3%C5%82kowskiego" traget="_blank">Wierzchlas</a></strong> - Rezerwat Cisow Staropolskich</p>
+                            <p><strong><a href="http://www.kon.pl/" traget="_blank">Ostrowo</a></strong> - stadnina koni "QŃ"</p>
                           </li>
                           <li  class="attr-li6">
+                            <p><strong><a href="https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Cisy_Staropolskie_im._Leona_Wycz%C3%B3%C5%82kowskiego" traget="_blank">Wierzchlas</a></strong> - Rezerwat Cisow Staropolskich</p>
+                          </li>
+                          <li class="attr-li7">
                             <p><strong><a href="http://www.woziwoda.torun.lasy.gov.pl/obiekty-edukacyjne" traget="_blank">Woziwoda</a></strong> - spływy kajakowe po Brdzie, gastronomia</p>
                           </li>
                         </ol>
@@ -302,7 +305,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
-                      <img src="img/mapa_okoliczne_atrakcje.jpg" alt="Mapa Okoliczne atrakcje" />
+                      <img src="img/mapa_okoliczne_atrakcje_bory.jpg" alt="Mapa Okoliczne atrakcje" />
                     </div><!-- service-box -->
                 </div>
             </div><!-- row -->
