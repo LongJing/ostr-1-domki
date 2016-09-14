@@ -289,7 +289,7 @@
                             <p><strong><a href="https://pl.wikipedia.org/wiki/Jelenia_Wyspa" traget="_blank">Gołąbek</a></strong> - leśna ściezka dydaktyczna "Jelenia Wyspa"</p>
                           </li>
                           <li  class="attr-li4">
-                            <p><strong><a href="http://turnusy-dla-dzieci.blogspot.com/2012/08/osrodek-rehabilitacji-i-hipoterapii.html" target="_blank">Małe Gacno - ośrodek hipoterapii</a></strong></p>
+                            <p><strong><a href="http://turnusy-dla-dzieci.blogspot.com/2012/08/osrodek-rehabilitacji-i-hipoterapii.html" target="_blank">Małe Gacno</a></strong> - ośrodek hipoterapii</a></strong></p>
                           </li>
                           <li  class="attr-li5">
                             <p><strong><a href="http://www.kon.pl/" traget="_blank">Ostrowo</a></strong> - stadnina koni "QŃ"</p>

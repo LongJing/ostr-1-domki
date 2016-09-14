@@ -4,6 +4,7 @@ class Booking
 {
   public $res_json_file; // reservations file json
   private $_current_month;
+  private $_current_year;
   private $_months_days = array(
         'styczeń'=>31,'luty'=>28,'marzec'=>31,
         'kwiecień'=>30,'maj'=>31, 'czerwiec'=>30,
@@ -58,6 +59,15 @@ class Booking
       }
 
   }
+  private function setCurrentYear( $year = null )
+  {
+      if( null === $year ) {
+          $this->_current_year = date("Y");
+      } else {
+        $this->_current_year = $year;
+      }
+
+  }
   private function setRestMonth()
   {
     $this->_rest_month = 12 - $this->_current_month;
@@ -85,7 +95,12 @@ class Booking
   {
     foreach( $this->_new_order_months as $mkey=>$mval) {
       echo "<div class='col-lg-2'>" . "\n";
-      echo "\t\t$mval\n" ;
+      if( $mkey > $this->_rest_month+1 ) {
+          echo "\t\t" . $this->_current_year . " " . "$mval\n" ;
+      } else {
+          echo "\t\t" . $this->_current_year+1 . " " . "$mval\n" ;
+      }
+
       echo "</div>\n";
       if( array_key_exists( $mval, $this->_jcalendar )) {
 
