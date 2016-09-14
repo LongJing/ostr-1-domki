@@ -154,6 +154,9 @@ body {
 footer {
   margin-top: 15px;
 }
+.infofoot {
+  font-size: 12px;
+}
 .kydfoot {
   font-size: 9px;
   color: gray;

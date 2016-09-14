@@ -48,7 +48,7 @@
         <div class="container">
 
           <div class="navbar-brand navbar-right">
-            <img src="img/rezerwuj_domek_503234212.png" alt="Rezerwacja i cena" />
+            <img src="img/rezerwuj_domek_535833418.png" alt="Rezerwacja domek 535833418" />
           </div>
 
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -128,8 +128,8 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
               <div class="col-lg-4 col-sm-6">
-                <a href="img/gallery/full/widok_z_laki.jpg" class="portfolio-box" title="Domki na jeziorem">
-                    <img src="img/gallery/sml/widok_z_laki.jpg" class="img-responsive" alt="Domki na jeziorem">
+                <a href="img/gallery/full/widok_z_laki.jpg" class="portfolio-box" title="Domki widok z łąki">
+                    <img src="img/gallery/sml/widok_z_laki.jpg" class="img-responsive" alt="Domki widok z łąki">
                       <div class="portfolio-box-caption">
                           <div class="portfolio-box-caption-content">
                               <div class="project-category text-faded">
@@ -143,8 +143,8 @@
                   </a>
               </div>
               <div class="col-lg-4 col-sm-6">
-                <a href="img/gallery/full/widok_z_drogi.jpg" class="portfolio-box" title="Domki do wynajęcia">
-                    <img src="img/gallery/sml/widok_z_drogi.jpg" class="img-responsive" alt="Domki do wynajęcia">
+                <a href="img/gallery/full/widok_z_drogi.jpg" class="portfolio-box" title="Domki widok z drogi">
+                    <img src="img/gallery/sml/widok_z_drogi.jpg" class="img-responsive" alt="Domki widok z drogi">
                       <div class="portfolio-box-caption">
                           <div class="portfolio-box-caption-content">
                               <div class="project-category text-faded">
@@ -157,9 +157,24 @@
                       </div>
                   </a>
               </div>
+              <div class="col-lg-4 col-sm-6">
+                  <a href="img/gallery/full/plaza-jezioro.jpg" class="portfolio-box" title="Plaża nad jeziorem">
+                      <img src="img/gallery/sml/plaza-jezioro.jpg" class="img-responsive" alt="Plaża nad jeziorem">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  kliknij, aby zobaczy całe zdjęcie
+                              </div>
+                              <div class="project-name">
+                                  Plaża nad jeziorem
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/gallery/full/kuchnia.jpg" class="portfolio-box" title="Domek wypoczynkowy Kuchnia">
-                        <img src="img/gallery/sml/kuchnia.jpg" class="img-responsive" alt="Domek wypoczynkowy Kuchnia">
+                    <a href="img/gallery/full/kuchnia.jpg" class="portfolio-box" title="Aneks kuchenny">
+                        <img src="img/gallery/sml/kuchnia.jpg" class="img-responsive" alt="Aneks kuchenny">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -173,8 +188,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/salon.jpg" class="portfolio-box" title="Salon z kominkiem">
-                      <img src="img/gallery/sml/salon.jpg" class="img-responsive" alt="Salon z kominkiem">
+                  <a href="img/gallery/full/salon.jpg" class="portfolio-box" title="Salon widok z aneksu kuchennego">
+                      <img src="img/gallery/sml/salon.jpg" class="img-responsive" alt="Salon widok z aneksu kuchennego">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -188,8 +203,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/salon_02.jpg" class="portfolio-box" title="Salon duże kanapy">
-                      <img src="img/gallery/sml/salon_02.jpg" class="img-responsive" alt="Salon duże kanapy">
+                  <a href="img/gallery/full/salon_02.jpg" class="portfolio-box" title="Salon widok z tarasu">
+                      <img src="img/gallery/sml/salon_02.jpg" class="img-responsive" alt="Salon widok z tarasu">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -203,8 +218,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/lazienka.jpg" class="portfolio-box" title="Łazienka">
-                      <img src="img/gallery/sml/lazienka.jpg" class="img-responsive" alt="Osobna łazienka">
+                  <a href="img/gallery/full/osobna_lazienka.jpg" class="portfolio-box" title="Łazienka">
+                      <img src="img/gallery/sml/osobna_lazienka.jpg" class="img-responsive" alt="Łazienka">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -233,8 +248,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/poddasze_sredni_pokoj.jpg" class="portfolio-box" title="Średni pokój na poddaszu">
-                      <img src="img/gallery/sml/poddasze_sredni_pokoj.jpg" class="img-responsive" alt="Średni pokój na poddaszu">
+                  <a href="img/gallery/full/poddasze_sredni_pokoj_02.jpg" class="portfolio-box" title="Średni pokój na poddaszu">
+                      <img src="img/gallery/sml/poddasze_sredni_pokoj_02.jpg" class="img-responsive" alt="Średni pokój na poddaszu">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -248,8 +263,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                  <a href="img/gallery/full/poddasze_duzy_pokoj.jpg" class="portfolio-box" title="Duży pokój na poddaszu">
-                      <img src="img/gallery/sml/poddasze_duzy_pokoj.jpg" class="img-responsive" alt="Duży pokój na poddaszu">
+                  <a href="img/gallery/full/duzy_pokoj_poddasze_02.jpg" class="portfolio-box" title="Duży pokój na poddaszu z balkonem">
+                      <img src="img/gallery/sml/duzy_pokoj_poddasze_02.jpg" class="img-responsive" alt="Duży pokój na poddaszu z balkonem">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -257,6 +272,36 @@
                                 </div>
                                 <div class="project-name">
                                     Duży pokój na poddaszu z balkonem
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a href="img/gallery/full/boiska_2.jpg" class="portfolio-box" title="Boiska do siatkówki plażowej, koszykówki oraz kort tenisowy">
+                      <img src="img/gallery/sml/boiska_2.jpg" class="img-responsive" alt="Boiska do siatkówki plażowej, koszykówki oraz kort tenisowy">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    kliknij, aby zobaczy całe zdjęcie
+                                </div>
+                                <div class="project-name">
+                                    Boiska do siatkówki plażowej, koszykówki oraz kort tenisowy
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a href="img/gallery/full/amfiteatr_03.jpg" class="portfolio-box" title="Amfiteatr">
+                      <img src="img/gallery/sml/amfiteatr_03.jpg" class="img-responsive" alt="Amfiteatr">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    kliknij, aby zobaczy całe zdjęcie
+                                </div>
+                                <div class="project-name">
+                                    Amfiteatr
                                 </div>
                             </div>
                         </div>
@@ -357,7 +402,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <p>&copy; 2016 Tomasz Pędrasik. All rights reserved.</p>
+            <p class="infofoot">&copy; 2016 <a href="http://www.krzywogoniec.pl">www.krzywogoniec.pl</a> Całoroczne domki do wynajęcia. Rezerwacja: <a href="tel:535 833 418">535 833 418</a></p>
           </div>
           <div class="col-lg-6 text-right">
             <p class="kydfoot">by krzysko</p>
