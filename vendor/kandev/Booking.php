@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(E_ERROR);
 class Booking
 {
   public $res_json_file; // reservations file json
@@ -71,19 +71,28 @@ class Booking
   private function setRestMonth()
   {
     $this->_rest_month = 12 - $this->_current_month;
+    // echo "rest month: " . $this->_rest_month; -- OK
   }
   private function setNewOrderMonths()
   {
     // setup val for first key in array
     $nkey= 1;
+    //echo "curr month: " . $this->_current_month;
     for($i=$this->_current_month; $i<=12; $i++) { // $i = 5 change to $i = $current_month
       $this->_new_order_months[$nkey++] = $this->_dic_months[$i];
+    //  echo "i: " . $i . "<br />";
     }
+    // echo "new order aft for: " . count($this->_new_order_months);
+    // echo "<br />_dic_months: " . count($this->_dic_months) . "<br />";
     foreach($this->_dic_months as $key=>$val) {
+      if( $key == 1 ) break;
+      // echo "<br />key: " . $key . " val: " . $val . "<br />";
       $this->_new_order_months[] = $val;
+      // echo " new order month val: " . $this->_new_order_months[$key];
+
       if( $key == $this->_current_month-1) break;
     }
-    // print_r( $this->_new_order_months);  // ok
+     //print_r( $this->_new_order_months);  // ok
 
   }
   /**
@@ -93,13 +102,22 @@ class Booking
    */
   public function generateHTML()
   {
+    /*
+    echo "<br />_new_order_months: " . count($this->_new_order_months);
+    echo "<pre>";
+      var_dump($this->_new_order_months);
+    echo "</pre>";
+    */
     foreach( $this->_new_order_months as $mkey=>$mval) {
       echo "<div class='col-lg-2'>" . "\n";
+      echo "\t\t" . "$mval\n" ;
+      /*
       if( $mkey > $this->_rest_month+1 ) {
           echo "\t\t" . $this->_current_year . " " . "$mval\n" ;
       } else {
           echo "\t\t" . $this->_current_year+1 . " " . "$mval\n" ;
       }
+      */
 
       echo "</div>\n";
       if( array_key_exists( $mval, $this->_jcalendar )) {
